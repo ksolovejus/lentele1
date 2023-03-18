@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+table{
+    margin: 30px;
+    width: 75%;
+    height: 200px;
+    border-collapse: collapse;
+}
+
+ table, th, td{
+    border: 2px solid white;
+ }
+
+th{
+    text-align: center;
+    color: black;
+}
+
+tr:first-child{
+    background: yellow;
+}
+
+th:nth-child(even){
+    background: orange;
+}
+
+tr{
+    background: rgb(81, 12, 184);
+}
